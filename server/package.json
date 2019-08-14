@@ -1,0 +1,22 @@
+{
+  "name": "danlaw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha test/*.js",
+    "start": "node server.js",
+    "dev": "nodemon --watch server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/ryangilbert/danlaw.git"
+  },
+  "author": "Ryan Gilbert",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/ryangilbert/danlaw#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mocha": "^6.1.4"
+  }
+}
